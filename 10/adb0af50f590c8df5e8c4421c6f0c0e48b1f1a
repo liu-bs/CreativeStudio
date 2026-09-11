@@ -1,0 +1,23 @@
+app/editor/export/ExportButton.tsx
+  s_e45575b2129372::t_478d7ce24ccbdd 88-90
+app/editor/toolbar/Toolbar.tsx
+  s_e45575b2129372::t_9e3e019131de03 103
+app/editor/store/types.ts
+  s_e45575b2129372::t_e18f83b5e39ce8 74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "10adb0af50f590c8df5e8c4421c6f0c0e48b1f1a",
+  "prompts": {},
+  "sessions": {
+    "s_e45575b2129372": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7d4d9a29-b491-4726-aab4-582a40311806",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
