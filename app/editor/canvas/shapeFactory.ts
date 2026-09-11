@@ -180,7 +180,17 @@ export function redrawShape(container: Container, obj: CanvasObject) {
     case "image":
       // Don't destroy image sprite if it's already loaded
       // Check if first child is a Sprite (loaded) — if so just resize
-      container.addChild(createImagePlaceholder(obj));
+      {
+        const firstChild = container.children[0];
+        if (firstChild && (firstChild as any).texture) {
+          // Sprite already loaded — just resize
+          (firstChild as Sprite).width = obj.width;
+          (firstChild as Sprite).height = obj.height;
+        } else {
+          // Placeholder or empty — create placeholder (sprite will load async)
+          container.addChild(createImagePlaceholder(obj));
+        }
+      }
       break;
   }
 

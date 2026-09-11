@@ -117,17 +117,24 @@ export class SceneManager {
         // Update existing — check if properties changed
         const prevObj = prev.get(id);
         if (prevObj !== obj) {
-          // Redraw (but not for video — sprite is managed)
-          if (obj.type !== "video") {
-            redrawShape(existing, obj);
-          } else {
-            // Update video sprite size
+          if (obj.type === "video") {
+            // Update video sprite size without destroying it
             existing.position.set(obj.x, obj.y);
             const sprite = existing.getChildAt(0);
             if (sprite) {
               sprite.width = obj.width;
               sprite.height = obj.height;
             }
+          } else if (obj.type === "image") {
+            // Update image — don't destroy loaded sprite
+            existing.position.set(obj.x, obj.y);
+            const child = existing.getChildAt(0);
+            if (child) {
+              child.width = obj.width;
+              child.height = obj.height;
+            }
+          } else {
+            redrawShape(existing, obj);
           }
         }
       }
