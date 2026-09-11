@@ -1,0 +1,101 @@
+app/editor/timeline/Timeline.tsx
+  s_e45575b2129372::t_f15db82ad10f44 1-127
+app/globals.css
+  s_e45575b2129372::t_9abafa048e3237 4-5,18-40
+app/editor/toolbar/Toolbar.tsx
+  s_e45575b2129372::t_cf7a708b5f70a8 3,5,20-24,26-109,115,126-140
+  s_e45575b2129372::t_043cc5474acbd8 1-2,4,6-12,14-19,25,110-114,116-125,141-143
+  s_e45575b2129372::t_4e326a264bb6b6 13
+app/editor/timeline/Clip.tsx
+  s_e45575b2129372::t_e826bbf79039b1 1-115
+app/editor/store/editorStore.ts
+  s_e45575b2129372::t_a8c9e22be0eaad 48-50
+  s_e45575b2129372::t_177e83a0a303ac 1-47,51-179
+app/editor/timeline/Track.tsx
+  s_e45575b2129372::t_ce0661f0c8583b 1-30
+app/editor/EditorShell.tsx
+  s_e45575b2129372::t_fcd1a55df72dc5 1-39
+app/editor/panels/PropertiesPanel.tsx
+  s_e45575b2129372::t_4f71639b92b975 1-144,154-215
+  s_e45575b2129372::t_65b0a666716803 145-153
+README.md
+  s_e45575b2129372::t_0e3910824302cd 1,3,5,8,12,14,16,18-32,34,36-42,44,46-49,51,53-132
+app/layout.tsx
+  s_e45575b2129372::t_b208e0417f5ec5 9-13,15-16
+  s_e45575b2129372::t_8ce0d6e5d2a5ff 17-18
+  s_e45575b2129372::t_cb5e650b0cc961 5-6
+package.json
+  s_e45575b2129372::t_f2d190184c8e1d 15-16,18-19
+  s_e45575b2129372::t_2e235f6826a34c 12-13
+  s_e45575b2129372::t_36da3edf05b852 23,29
+app/editor/canvas/SceneManager.ts
+  s_e45575b2129372::t_4308075d438547 113-114
+  s_e45575b2129372::t_b443b90b94aa5e 5
+  s_e45575b2129372::t_4430fce7b6cf3d 163-164
+  s_e45575b2129372::t_036ed3b7e9d987 38-39
+  s_e45575b2129372::t_d9745a665de5b0 1-3,6-37,40-48,53-112,115-162,165-231
+  s_e45575b2129372::t_930b18fa59f6e4 49-51
+  s_e45575b2129372::t_15f0589f621046 4
+  s_e45575b2129372::t_239b1308bef998 52
+app/editor/canvas/VideoSpriteManager.ts
+  s_e45575b2129372::t_500fb7d1ac902b 1-79
+app/editor/timeline/Playhead.tsx
+  s_e45575b2129372::t_13365aa4da8bd4 1-26
+tsconfig.json
+  s_e45575b2129372::t_36da3edf05b852 4-8,26-28,37-38,40-42
+app/editor/store/types.ts
+  s_e45575b2129372::t_f43075d1555394 1-2
+  s_e45575b2129372::t_1f24b0b4674920 51-55,61
+  s_e45575b2129372::t_10e9c3b9ad014e 3-50,56-60,62-87
+app/editor/canvas/PixiCanvas.tsx
+  s_e45575b2129372::t_9188e063baaaec 162
+  s_e45575b2129372::t_9770fc78c7af8b 18
+  s_e45575b2129372::t_da27b09576d832 80,82
+  s_e45575b2129372::t_dd0e9bc91a29dc 101-110
+  s_e45575b2129372::t_8fee54dc962f6d 134
+  s_e45575b2129372::t_1ffaa2ae124788 138-142
+  s_e45575b2129372::t_ab6ad6d3e1f8e6 1-17,19-79,83-100,111-133,135-137,143-147,150-152,167-173
+  s_e45575b2129372::t_420df8285aeb66 81
+  s_e45575b2129372::t_e2e86ca1a97c82 148-149,153-161,163-166
+app/editor/utils/time.ts
+  s_e45575b2129372::t_fbd6b493d884ad 1-19
+app/editor/utils/coordinate.ts
+  s_e45575b2129372::t_8ca280957786c3 1-13
+app/editor/timeline/TimeRuler.tsx
+  s_e45575b2129372::t_e348605246d136 1-41
+app/editor/export/ExportButton.tsx
+  s_e45575b2129372::t_99d293a90c7d75 1-36
+app/editor/canvas/shapeFactory.ts
+  s_e45575b2129372::t_50991533e19870 1
+  s_e45575b2129372::t_c208d3fc59bc11 37-40
+  s_e45575b2129372::t_6f4a46a04876c3 65-66,77-78
+  s_e45575b2129372::t_1f229903d8ca39 180-184
+  s_e45575b2129372::t_0c5536e9bbb9ed 125-136,138-142
+  s_e45575b2129372::t_3d2dd90b569e7a 2-8,10-36,41-64,67-76,79-111,153-179,185-228
+  s_e45575b2129372::t_c93a329641922d 9
+  s_e45575b2129372::t_a5c25652526158 112-124,137,143-152
+app/page.tsx
+  s_e45575b2129372::t_4afc2f75a9a066 5-8,10-14
+  s_e45575b2129372::t_a0881452a30b0b 1,3-4
+app/editor/canvas/SelectionController.ts
+  s_e45575b2129372::t_d7c361ac33cc5d 1-54,56-181
+  s_e45575b2129372::t_51074c7868bb26 55
+package-lock.json
+  s_e45575b2129372::t_04061f45c52b44 11-12,14-15,17-18,22,28,461-490,1415-1420,1731-1736,1772,2437-2451,2971,3134-3139,3797-3802,4078-4086,4758-4763,4792-4797,5684-5689,5736-5770,6533-6541,7039-7067
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "46abb80c53748a38d61f2fb3ba6a28dd0c86a348",
+  "prompts": {},
+  "sessions": {
+    "s_e45575b2129372": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7d4d9a29-b491-4726-aab4-582a40311806",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
