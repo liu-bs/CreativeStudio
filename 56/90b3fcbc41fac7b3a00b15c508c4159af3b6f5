@@ -1,0 +1,21 @@
+app/editor/canvas/shapeFactory.ts
+  s_e45575b2129372::t_37bb225ff6300b 183-193
+app/editor/canvas/SceneManager.ts
+  s_e45575b2129372::t_0b56192a9847b3 120-121,128-137
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "5690b3fcbc41fac7b3a00b15c508c4159af3b6f5",
+  "prompts": {},
+  "sessions": {
+    "s_e45575b2129372": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7d4d9a29-b491-4726-aab4-582a40311806",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
