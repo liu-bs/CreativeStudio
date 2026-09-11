@@ -71,6 +71,7 @@ export interface TimelineClip {
   color: number;
   label: string;
   trimStart: number;
+  fileType: string; // MIME type, e.g. "video/mp4", "video/webm"
 }
 
 export interface PlaybackState {

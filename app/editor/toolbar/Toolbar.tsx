@@ -100,6 +100,7 @@ export function Toolbar() {
         color: 0x6366f1,
         label: file.name.length > 20 ? file.name.slice(0, 20) + "..." : file.name,
         trimStart: 0,
+        fileType: file.type || "video/mp4",
       });
       selectObject(objId);
     };

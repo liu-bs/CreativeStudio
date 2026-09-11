@@ -85,7 +85,9 @@ export function ExportButton() {
         const endTime = clip.trimStart + clip.duration;
 
         // 根据输入格式决定编码方式
-        const isWebm = clip.videoUrl.includes(".webm") || clip.videoUrl.startsWith("blob:");
+        // MP4 → -c copy 直接拷贝（秒级，体积按比例缩小）
+        // WebM → libx264 重编码（格式转换）
+        const isWebm = clip.fileType?.includes("webm") || clip.videoUrl.includes(".webm");
         const execArgs = isWebm
           ? [
               "-ss", startTime.toString(),
