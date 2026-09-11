@@ -1,0 +1,47 @@
+.gitignore
+  s_875e5e985ff91f::t_450de47a76eb26 1-41
+README.md
+  s_875e5e985ff91f::t_d9cc25234f86cd 1-36
+app/globals.css
+  s_875e5e985ff91f::t_7fe4f253e5e3df 1-26
+app/layout.tsx
+  s_875e5e985ff91f::t_490414f8e8e032 1-29
+app/page.tsx
+  s_875e5e985ff91f::t_d419a1de4d420d 1-69
+eslint.config.mjs
+  s_875e5e985ff91f::t_21aa267d6ea7b1 1-18
+next.config.ts
+  s_875e5e985ff91f::t_db639761c1b79a 1-7
+package.json
+  s_875e5e985ff91f::t_21053161ab0dbb 1-26
+postcss.config.mjs
+  s_875e5e985ff91f::t_23a42b578099c0 1-7
+public/file.svg
+  s_875e5e985ff91f::t_3e19e5807ee691 1
+public/globe.svg
+  s_875e5e985ff91f::t_ae106956403f3e 1
+public/next.svg
+  s_875e5e985ff91f::t_103e26a644e1cb 1
+public/vercel.svg
+  s_875e5e985ff91f::t_df6a72b70948b6 1
+public/window.svg
+  s_875e5e985ff91f::t_6e892aea20144d 1
+tsconfig.json
+  s_875e5e985ff91f::t_544069f65aef5e 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "cfaadca0fd35691586d1bd23121180845bdbc379",
+  "prompts": {},
+  "sessions": {
+    "s_875e5e985ff91f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "96cb7004-77e9-47c8-8acf-d840beca3056",
+        "model": "glm-5.2"
+      },
+      "human_author": "卜二 <5442923+lhfp@user.noreply.gitee.com>"
+    }
+  }
+}
